@@ -1,1 +1,1 @@
-# ubuntu20-setup
+# Ubuntu 20.04 LTS Setup

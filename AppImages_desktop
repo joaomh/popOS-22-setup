@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Kdenlive
+Comment=Kdenlive
+Icon=/home/user/Documents/AppImages/logo.png
+Exec=/home/user/Documents/AppImages/kdenlive-20.04.1b-x86_64.appimage
+Terminal=false
+Categories=Multimedia
+
+.local/share/applications/kdenlive.desktop

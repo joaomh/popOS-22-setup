@@ -22,6 +22,9 @@ sudo apt install resolvconf
 sudo apt install -y openvpn dialog python3-pip python3-setuptools
 sudo pip3 install protonvpn-cli
 
+# bashtop
+sudo apt install bashtop
+
 sudo apt update
 
 # Gotta reboot now:

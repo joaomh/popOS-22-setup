@@ -24,7 +24,6 @@ sudo pip3 install protonvpn-cli
 
 sudo apt update
 
-
 # Gotta reboot now:
 sudo apt update && sudo apt upgrade -y
 

@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Ubuntu (GNOME) 20.04 LTS setup script.
 
 # Initial Software

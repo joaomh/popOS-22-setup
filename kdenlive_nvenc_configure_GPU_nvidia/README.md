@@ -8,7 +8,6 @@ Git Clone
 
 [Shotcut](https://www.shotcut.org/download/)
 
-
 ## Create a new render configuration
 
 Deleted everything in the speed options and use mp4 format.

@@ -3,7 +3,9 @@
 
 # Initial Software
 # zsh, terminator, tmux, tilix
+
 sudo apt install zsh
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 chsh -s $(which zsh)
 sudo apt install tmux
 sudo apt install terminator
@@ -12,14 +14,9 @@ sudo apt install tilix
 # gnome tweaks
 sudo apt install gnome-tweaks
 
-# VPN - no command-line
-sudo apt-get install openvpn
-sudo apt-get install network-manager-openvpn-gnome
-sudo apt install resolvconf
-
-# command-line
-sudo apt install -y openvpn dialog python3-pip python3-setuptools
-sudo pip3 install protonvpn-cli
+# GNOME 
+sudo apt install gnome-session 
+gnome-extensions disable pop-cosmic@system76.com
 
 # bashtop
 sudo apt install bashtop

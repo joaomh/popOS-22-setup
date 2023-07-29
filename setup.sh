@@ -21,6 +21,9 @@ gnome-extensions disable pop-cosmic@system76.com
 # bashtop
 sudo apt install bashtop
 
+# sensors
+sudo apt install lm-sensors
+
 sudo apt update
 
 # Gotta reboot now:

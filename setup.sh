@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # Ubuntu (GNOME) 20.04 LTS setup script.
 
@@ -11,9 +12,11 @@ sudo apt install tmux
 sudo apt install terminator
 sudo apt install tilix
 
+# install powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
+# config dual monitor to force your refresh rate
 echo 'CLUTTER_DEFAULT_FPS=240' >>~/etc/environment
 echo '__GL_SYNC_DISPLAY_DEVICE=DP-0' >>~/etc/environment
 

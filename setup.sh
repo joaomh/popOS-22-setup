@@ -11,6 +11,13 @@ sudo apt install tmux
 sudo apt install terminator
 sudo apt install tilix
 
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+echo 'CLUTTER_DEFAULT_FPS=240' >>~/etc/environment
+echo '__GL_SYNC_DISPLAY_DEVICE=DP-0' >>~/etc/environment
+
+
 # gnome tweaks
 sudo apt install gnome-tweaks
 

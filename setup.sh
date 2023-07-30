@@ -31,6 +31,9 @@ sudo apt install bashtop
 # sensors
 sudo apt install lm-sensors
 
+# virt manager
+sudo apt-get install virt-manager
+
 sudo apt update
 
 # Gotta reboot now:

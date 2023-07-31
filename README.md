@@ -14,8 +14,13 @@ __GL_SYNC_DISPLAY_DEVICE=DP-0
 ```
 ## Extensions
 https://extensions.gnome.org/extension/5627/device-power-indicator/
-ttps://extensions.gnome.org/extension/307/dash-to-dock/
+
+https://extensions.gnome.org/extension/307/dash-to-dock/
+
 https://extensions.gnome.org/extension/3991/bluetooth-battery/
+
 https://extensions.gnome.org/extension/841/freon/
+
 https://extensions.gnome.org/extension/750/openweather/
+
 https://extensions.gnome.org/extension/906/sound-output-device-chooser/

@@ -37,6 +37,10 @@ sudo apt install lm-sensors
 # virt manager
 sudo apt-get install virt-manager
 
+# change nautilus-open-terminal
+sudo apt-get remove gnome-terminal
+sudo ln -s /usr/bin/tilix /usr/bin/gnome-terminal
+
 sudo apt update
 
 # Gotta reboot now:

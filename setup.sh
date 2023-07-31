@@ -38,8 +38,11 @@ sudo apt install lm-sensors
 sudo apt-get install virt-manager
 
 # change nautilus-open-terminal
-sudo apt-get remove gnome-terminal
-sudo ln -s /usr/bin/tilix /usr/bin/gnome-terminal
+sudo apt install python3-pip python3-nautilus
+pip install --user nautilus-open-any-terminal
+nautilus -q
+glib-compile-schemas ~/.local/share/glib-2.0/schemas/
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal tilix
 
 sudo apt update
 

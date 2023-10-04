@@ -3,10 +3,11 @@ This repository contains my settings for the Linux distributions Pop! OS 22.04
 
 # OS INFO
 Pop!_OS 22.04 (Linux Kernel 6.4.6-76060406-generic)
-RTX 4090 24GB
-Ryzen 9 7900
-32GB Corsair Dominator DDR5 DRAM 6200MHz
-3TB SSD****
+
+- RTX 4090 24GB
+- AMD Ryzen 9 7900 12/24
+- 32GB Corsair Dominator DDR5 DRAM 6200MHz
+- 3TB SSD
 
 ## Terminal ZSH power10k
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
